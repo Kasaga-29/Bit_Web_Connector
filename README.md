@@ -33,19 +33,21 @@
    
 2. **配置登录参数**：  
    
-   username: 用户名
+   **username**: 用户名
    
-   password: 密码
+   **password**: 密码
    
-   interval: 检测网络连接状态的间隔时间
+   **interval**: 检测网络连接状态的间隔时间
    
-   edge_driver_path: Edge浏览器的WebDriver路径，已放置在 `edge_driver` 目录下
+   **edge_driver_path**: Edge浏览器的WebDriver路径，已放置在 `edge_driver` 目录下
    
-   log_file_path: 日志地址路径，若不需要可将其设为 None
+   **log_file_path**: 日志地址路径，若不需要可将其设为 None
+
+   以上两路径请使用**绝对路径**表示，否则在执行 exe 文件时可能出现路径错误
    
    另有其余参数可参考login.py文件进行设置
    
-3. **运行脚本**：
+4. **运行脚本**：
    
    - 打开命令行工具，导航到代码所在的目录
      
@@ -53,7 +55,7 @@
      
      python run.py
      
-4. **打包为 EXE 文件**（可选）：  
+5. **打包为 EXE 文件**（可选）：  
    
    - 导航到代码所在的目录后，在命令行中执行以下命令：
       
