@@ -37,7 +37,7 @@
    
    **password**: 密码
    
-   **interval**: 检测网络连接状态的间隔时间
+   **interval**: 检测网络连接状态的间隔时间（单位：秒）
    
    **edge_driver_path**: Edge浏览器的WebDriver路径，已放置在 `edge_driver` 目录下
    
