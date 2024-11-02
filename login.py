@@ -108,10 +108,10 @@ def bit_web_connector(username, password, sleep_time, edge_driver_path, test_url
                     logger.info(f"[Info]    | {current_time} | Successfully login in.")
 
             except TimeoutException:
-                current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 if log_file_path != None:
+                    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     logger.info(f"[Error]   | {current_time} | Unsuccessfully login in.")
-                    driver.quit()
+                driver.quit()
                 break
             
             driver.quit()
