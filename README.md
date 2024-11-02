@@ -1,19 +1,19 @@
 # 北京理工大学校园网断网检测&自动重连工具
 
 ## 简介
-本工具使用python实现，可检测校园网是否断连，断连时使用selenium库模拟访问10.0.0.55进行登录。<br>
-可选择使用pyinstaller库将py文件封装为可执行文件运行。<br>
+本工具使用python实现，可检测校园网是否断连，断连时使用selenium库模拟访问10.0.0.55进行登录。  
+可选择使用pyinstaller库将py文件封装为可执行文件运行。  
 
 ## 支持系统
 - Windows
 
 ## 环境配置
-1. **安装 Python**：<br>
-   确保你的系统中已安装 Python。<br>
-2. **安装 Selenium 库**：<br>
-   pip install selenium <br>
-3. **安装 PyInstaller 库**：<br>
-   pip install pyinstaller <br>
+1. **安装 Python**：  
+   确保你的系统中已安装 Python。  
+2. **安装 Selenium 库**：  
+   pip install selenium   
+3. **安装 PyInstaller 库**：  
+   pip install pyinstaller  
 
 ## 使用方法
 1. **下载代码**：
