@@ -39,13 +39,13 @@
    
    **interval**: 检测网络连接状态的间隔时间（单位：秒）
    
-   **edge_driver_path**: Edge浏览器的WebDriver路径，已放置在 `edge_driver` 目录下
+   **edge_driver_path**: Edge 浏览器的 WebDriver 路径，已放置在 `edge_driver` 目录下
    
    **log_file_path**: 日志地址路径，若不需要可将其设为 None
 
    以上两路径请使用**绝对路径**表示，否则在执行 exe 文件时可能出现路径错误
    
-   另有其余参数可参考login.py文件进行设置
+   另有其余参数可参考 login.py 文件进行设置
    
 4. **运行脚本**：
    
